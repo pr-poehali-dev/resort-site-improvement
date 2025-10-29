@@ -151,7 +151,7 @@ const Index = () => {
         id="home" 
         className="pt-24 pb-16 px-4 relative min-h-[600px] flex items-center"
         style={{
-          backgroundImage: 'url(https://cdn.poehali.dev/projects/948c1d06-29d5-4c9a-a44e-d555b7dcca93/files/d774de1f-7551-4f78-8e91-b6f5e3f19cff.jpg)',
+          backgroundImage: 'url(https://static.tildacdn.com/tild6238-6639-4839-a238-383430663833/IMG_9278.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
@@ -490,17 +490,7 @@ const Index = () => {
                         Ближайшая ж/д станция в г. Петрозаводск. От вокзала организован трансфер до базы отдыха (требуется предварительная договоренность).
                       </AccordionContent>
                     </AccordionItem>
-                    <AccordionItem value="plane">
-                      <AccordionTrigger>
-                        <div className="flex items-center gap-2">
-                          <Icon name="Plane" size={20} />
-                          <span>На самолете</span>
-                        </div>
-                      </AccordionTrigger>
-                      <AccordionContent>
-                        Ближайший аэропорт в г. Петрозаводск. От аэропорта можно добраться на такси или заказать трансфер.
-                      </AccordionContent>
-                    </AccordionItem>
+
                   </Accordion>
                 </CardContent>
               </Card>
