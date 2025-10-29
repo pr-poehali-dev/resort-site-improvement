@@ -159,7 +159,7 @@ const Index = () => {
             <div className="flex flex-wrap justify-center gap-4 mb-12">
               <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-sm">
                 <Icon name="MapPin" className="text-primary" size={20} />
-                <span>Онежское озеро</span>
+                <span>Лемболовское озеро</span>
               </div>
               <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-sm">
                 <Icon name="Phone" className="text-primary" size={20} />
@@ -501,7 +501,7 @@ const Index = () => {
             <Icon name="Trees" size={32} />
             <span className="text-2xl font-bold">ОнегаПарк</span>
           </div>
-          <p className="mb-4">База отдыха на Онежском озере</p>
+          <p className="mb-4">База отдыха на Лемболовском озере</p>
           <div className="flex justify-center gap-6 mb-4">
             <a href="#" className="hover:text-accent transition-colors">
               <Icon name="Facebook" size={24} />
