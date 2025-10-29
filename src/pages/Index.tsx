@@ -350,38 +350,42 @@ const Index = () => {
             </TabsList>
             <TabsContent value="rooms" className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {[1, 2, 3, 4, 5, 6].map((i) => (
-                  <div key={i} className="aspect-video bg-gradient-to-br from-primary/20 to-accent/30 rounded-lg flex items-center justify-center">
-                    <Icon name="Image" className="text-primary/40" size={48} />
-                  </div>
-                ))}
+                <img src="https://static.tildacdn.com/tild3634-3839-4233-b137-363534323061/DSC_9989.jpg" alt="Номер стандарт" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3563-3965-4162-b130-663461626365/DSC_0123.jpg" alt="Семейный номер" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3663-6331-4331-b762-363435663964/DSC_0034.jpg" alt="Интерьер номера" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild6338-3563-4264-b632-613233343938/DSC_0016.jpg" alt="Номер люкс" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild6232-3965-4165-a563-313139393931/DSC_0022.jpg" alt="Коттедж внутри" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3162-3935-4336-b061-313733383063/DSC_0061.jpg" alt="Спальня" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
               </div>
             </TabsContent>
             <TabsContent value="territory" className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {[1, 2, 3, 4, 5, 6].map((i) => (
-                  <div key={i} className="aspect-video bg-gradient-to-br from-accent/30 to-primary/20 rounded-lg flex items-center justify-center">
-                    <Icon name="Image" className="text-primary/40" size={48} />
-                  </div>
-                ))}
+                <img src="https://static.tildacdn.com/tild6238-6639-4839-a238-383430663833/IMG_9278.jpg" alt="Территория базы" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3764-3533-4837-b665-623536336436/IMG_9275.jpg" alt="Главный корпус" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3962-3335-4434-a563-643033376662/IMG_9263.jpg" alt="Коттеджи" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3035-6231-4330-b435-326164303135/IMG_9252.jpg" alt="Детская площадка" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3264-6561-4233-a238-363337343362/IMG_9247.jpg" alt="Пляжная зона" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3538-6137-4062-a565-623861396332/IMG_9241.jpg" alt="Вид сверху" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
               </div>
             </TabsContent>
             <TabsContent value="activities" className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {[1, 2, 3, 4, 5, 6].map((i) => (
-                  <div key={i} className="aspect-video bg-gradient-to-br from-secondary/20 to-accent/30 rounded-lg flex items-center justify-center">
-                    <Icon name="Image" className="text-primary/40" size={48} />
-                  </div>
-                ))}
+                <img src="https://static.tildacdn.com/tild3861-3834-4466-b966-396561646134/DSC_0200.jpg" alt="Баня" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3830-3338-4537-a566-363133646136/DSC_0189.jpg" alt="Мангальная зона" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3037-6339-4562-b135-306365613664/DSC_0176.jpg" alt="Рыбалка" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3239-3933-4664-b236-323466653832/DSC_0165.jpg" alt="Спортивная площадка" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3831-3533-4534-b834-646264356537/DSC_0143.jpg" alt="Прокат велосипедов" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3436-3961-4565-b232-646634623539/DSC_0135.jpg" alt="Лодочная станция" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
               </div>
             </TabsContent>
             <TabsContent value="nature" className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {[1, 2, 3, 4, 5, 6].map((i) => (
-                  <div key={i} className="aspect-video bg-gradient-to-br from-accent/40 to-primary/10 rounded-lg flex items-center justify-center">
-                    <Icon name="Image" className="text-primary/40" size={48} />
-                  </div>
-                ))}
+                <img src="https://static.tildacdn.com/tild3337-3062-4665-b231-346462633238/IMG_9290.jpg" alt="Лемболовское озеро" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild6166-3962-4531-b562-373964373137/IMG_9285.jpg" alt="Закат на озере" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3531-3937-4664-b165-373638343336/IMG_9283.jpg" alt="Лесная зона" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3438-6162-4331-b234-626633343232/IMG_9280.jpg" alt="Берег озера" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild6539-3763-4261-b139-613761346466/IMG_9268.jpg" alt="Природа вокруг" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
+                <img src="https://static.tildacdn.com/tild3534-3465-4962-b635-643764346532/IMG_9258.jpg" alt="Живописный вид" className="w-full aspect-video object-cover rounded-lg shadow-md hover:shadow-xl transition-shadow" />
               </div>
             </TabsContent>
           </Tabs>
