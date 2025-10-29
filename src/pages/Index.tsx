@@ -147,30 +147,40 @@ const Index = () => {
         </nav>
       </header>
 
-      <section id="home" className="pt-24 pb-16 px-4 bg-gradient-to-b from-accent/20 to-background">
-        <div className="container mx-auto">
+      <section 
+        id="home" 
+        className="pt-24 pb-16 px-4 relative min-h-[600px] flex items-center"
+        style={{
+          backgroundImage: 'url(https://cdn.poehali.dev/projects/948c1d06-29d5-4c9a-a44e-d555b7dcca93/files/d774de1f-7551-4f78-8e91-b6f5e3f19cff.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
+        <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <h1 className="text-5xl md:text-6xl font-bold text-primary mb-6">
+            <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
               База отдыха ОнегаПарк
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8">
+            <p className="text-xl md:text-2xl text-white/90 mb-8 drop-shadow-md">
               Отдых на природе в окружении озер и лесов
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-12">
-              <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-sm">
+              <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg">
                 <Icon name="MapPin" className="text-primary" size={20} />
                 <span>Лемболовское озеро</span>
               </div>
-              <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-sm">
+              <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg">
                 <Icon name="Phone" className="text-primary" size={20} />
                 <a href="tel:+79119200725" className="hover:text-primary transition-colors">+7 911 920 07 25</a>
               </div>
-              <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-sm">
+              <div className="flex items-center gap-2 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-lg shadow-lg">
                 <Icon name="Clock" className="text-primary" size={20} />
                 <span>Круглый год</span>
               </div>
             </div>
-            <Button size="lg" onClick={() => scrollToSection('prices')} className="text-lg px-8">
+            <Button size="lg" onClick={() => scrollToSection('prices')} className="text-lg px-8 shadow-xl hover:shadow-2xl">
               Забронировать
             </Button>
           </div>
